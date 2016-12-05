@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.ipn.cidetec.main;
-
-import mx.ipn.cidetec.view.MainWindow;
+package mx.ipn.cidetec.model;
 
 /**
  *
  * @author andres
  */
-public class VehicularMain {
+public class Vehicle {
     
-    public static void main(String [] args){
-        MainWindow mainWindow = new MainWindow();
+    private Ticket ticket; 
 
-    
+    public Ticket getTicket() {
+        return ticket;
+    }
+
+    public void setTicket(Ticket ticket) {
+        this.ticket = ticket;
     }
     
 }
